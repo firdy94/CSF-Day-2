@@ -1,0 +1,39 @@
+.Apple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+    flex-basis: auto;
+}
+
+.Orange {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+    flex-basis: auto;
+}
+
+.Strawberry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+    flex-basis: auto;
+}
+
+.Banana {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+    flex-basis: auto;
+}
+
+.inventory {
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    width: 30vw;
+    gap: 5px
+}

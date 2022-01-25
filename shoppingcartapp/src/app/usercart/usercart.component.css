@@ -1,0 +1,43 @@
+.Apple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+    flex-basis: auto;
+    gap: 10px;
+}
+
+.Orange {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+    flex-basis: auto;
+    gap: 10px;
+}
+
+.Strawberry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+    flex-basis: auto;
+    gap: 10px;
+}
+
+.Banana {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+    flex-basis: auto;
+    gap: 10px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    width: 40vw;
+    gap: 5px;
+}

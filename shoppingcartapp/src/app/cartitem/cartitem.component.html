@@ -1,0 +1,8 @@
+<div [class]="title">
+    <h1>Please Select</h1>
+    <div [class]="item.name" *ngFor="let item of inventory">
+        <img [src]="item.image" width="200px" />
+        <p>{{ item.name }}</p>
+        <button type="button" (click)="addItem(item.name)">Add</button>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+<div class="container">
+    <app-cartitem class="inventory" (onAdd)="sendToCart($event)"> </app-cartitem>
+    <app-usercart class="cart" [cart]="cart" (onDelete)="removeFromCart($event)"></app-usercart>
+</div>

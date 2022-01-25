@@ -1,0 +1,11 @@
+<div>
+    <h1>Your Cart</h1>
+    <h1 *ngIf="cart.size == 0">Your cart is empty</h1>
+    <div [class]="key" *ngFor="let key of cart.keys()">
+        <img src="../assets/images/{{ key.toLowerCase() }}.png" width="200px" />
+        <p>{{ key }}</p>
+        <br />
+        <p>{{ cart.get(key) }}</p>
+        <button type="button" (click)="delItem(key)">Remove</button>
+    </div>
+</div>
