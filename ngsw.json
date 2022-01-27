@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "timestamp": 1643255878046,
+  "index": "CSF-Day-2/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "CSF-Day-2/favicon.ico",
+        "CSF-Day-2/index.html",
+        "CSF-Day-2/main.30cbd70347ccffd7.js",
+        "CSF-Day-2/manifest.webmanifest",
+        "CSF-Day-2/polyfills.cbdbc2594dceb047.js",
+        "CSF-Day-2/runtime.7ccf0cc0295a540a.js",
+        "CSF-Day-2/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "CSF-Day-2/assets/icons/icon-128x128.png",
+        "CSF-Day-2/assets/icons/icon-144x144.png",
+        "CSF-Day-2/assets/icons/icon-152x152.png",
+        "CSF-Day-2/assets/icons/icon-192x192.png",
+        "CSF-Day-2/assets/icons/icon-384x384.png",
+        "CSF-Day-2/assets/icons/icon-512x512.png",
+        "CSF-Day-2/assets/icons/icon-72x72.png",
+        "CSF-Day-2/assets/icons/icon-96x96.png",
+        "CSF-Day-2/assets/images/apple.png",
+        "CSF-Day-2/assets/images/banana.png",
+        "CSF-Day-2/assets/images/orange.png",
+        "CSF-Day-2/assets/images/strawberry.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "CSF-Day-2/assets/icons/icon-128x128.png": "134898445eba29bc55b631ad5289974bc6e5b174",
+    "CSF-Day-2/assets/icons/icon-144x144.png": "226c2c26e65e3eb8f5f955bcc0b4e55998c3733b",
+    "CSF-Day-2/assets/icons/icon-152x152.png": "fd4e4f2b13b9f9ae5b2ba304f038424fafdee04f",
+    "CSF-Day-2/assets/icons/icon-192x192.png": "930fac60d798127c442941953badd7144a33c31b",
+    "CSF-Day-2/assets/icons/icon-384x384.png": "d1927dfee3434c1c838e0d8c4634a4632a86800e",
+    "CSF-Day-2/assets/icons/icon-512x512.png": "3d8c97971e574cc778a35c9fafa31919b89d8267",
+    "CSF-Day-2/assets/icons/icon-72x72.png": "6663fdb80de86851f2477e3a4265ea74b7b4918d",
+    "CSF-Day-2/assets/icons/icon-96x96.png": "1449afbb70118b5816dbaebf280407b24b8c4af8",
+    "CSF-Day-2/assets/images/apple.png": "159d95896c8474449392700cc49a8c446d37608e",
+    "CSF-Day-2/assets/images/banana.png": "bf5f627587a4806c14cc19c6471c536103176c58",
+    "CSF-Day-2/assets/images/orange.png": "b7d97752bbbee1e00ea5494773f0c7150bc7284e",
+    "CSF-Day-2/assets/images/strawberry.png": "8b1055ccaa2ac4d95c6d17eec0bdbbd297ea5407",
+    "CSF-Day-2/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "CSF-Day-2/index.html": "4a3ae8354526065acb711c630faf6ded51a730f9",
+    "CSF-Day-2/main.30cbd70347ccffd7.js": "bea870ed388ad83ef3a1a6a0a821b88bf8baabfb",
+    "CSF-Day-2/manifest.webmanifest": "cb09f8a5eda62e05cba9c6f925629200584af94b",
+    "CSF-Day-2/polyfills.cbdbc2594dceb047.js": "e3e4d6ef8e0b1301fa8539c6d9afbf2646936cf4",
+    "CSF-Day-2/runtime.7ccf0cc0295a540a.js": "23ef68662b505218b8a631be83b4c210ce54ab1a",
+    "CSF-Day-2/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
